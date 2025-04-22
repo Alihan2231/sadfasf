@@ -1,0 +1,7 @@
+{
+    "scan_interval": 24,
+    "auto_scan": false,
+    "dark_mode": true,
+    "notifications_enabled": true,
+    "periodic_scan_active": false
+}

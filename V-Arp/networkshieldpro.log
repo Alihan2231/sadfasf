@@ -1,0 +1,1259 @@
+2025-04-20 09:43:42,952 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ başlatılıyor...
+2025-04-20 09:43:42,952 - NetworkShieldPro.screens - DEBUG - Background ayarlanıyor...
+2025-04-20 09:43:42,953 - NetworkShieldPro.screens - DEBUG - Background ayarlandı
+2025-04-20 09:43:42,953 - NetworkShieldPro.screens - DEBUG - ARPScanner oluşturuluyor...
+2025-04-20 09:43:42,953 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:43:42,954 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 09:43:42,954 - NetworkShieldPro.ARPScanner - INFO - Kaydedilmiş tarama aralığı yüklendi: 24 saat
+2025-04-20 09:43:42,955 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:43:42,955 - NetworkShieldPro.settings - DEBUG - Ayar okundu: periodic_scan_active = False
+2025-04-20 09:43:42,956 - NetworkShieldPro.screens - DEBUG - ARPScanner başarıyla oluşturuldu.
+2025-04-20 09:43:42,956 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuluyor...
+2025-04-20 09:43:43,583 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuldu.
+2025-04-20 09:43:43,584 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuluyor...
+2025-04-20 09:43:43,623 - NetworkShieldPro.screens - ERROR - Ekranlar oluşturulurken hata: unknown option "-right"
+2025-04-20 09:43:43,637 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösteriliyor...
+2025-04-20 09:43:43,639 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösterildi.
+2025-04-20 09:43:43,639 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatılıyor...
+2025-04-20 09:43:43,641 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatıldı.
+2025-04-20 09:43:43,642 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ tamamlandı
+2025-04-20 09:43:43,642 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:43:43,642 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 09:43:43,643 - NetworkShieldPro - INFO - Otomatik tarama ayarı aktif, periyodik tarama başlatılıyor
+2025-04-20 09:43:43,643 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:43:43,643 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 09:43:43,644 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:43:43,645 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:43:43,645 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (aktif)
+2025-04-20 09:43:43,647 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 09:43:43,647 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 09:43:43,647 - NetworkShieldPro.screens - INFO - Periyodik tarama başlatıldı - Her 24 saatte bir
+2025-04-20 09:43:43,648 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 09:43:43,648 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 09:43:43,705 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 09:43:43,803 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:43:44,004 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:43:44,028 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:43:44,175 - NetworkShieldPro.ARPScanner - WARNING - Tarama zaten çalışıyor
+2025-04-20 09:43:44,374 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 09:43:48,733 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:43:49,502 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:43:54,772 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 09:43:54,772 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 09:43:54,809 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 09:43:54,883 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:43:54,955 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:43:54,956 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:43:55,118 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 09:44:38,140 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:44:38,140 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 09:44:38,141 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:44:38,142 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:44:38,144 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:44:38,145 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 09:44:38,145 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:44:38,146 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:44:38,147 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (pasif)
+2025-04-20 09:44:38,147 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i sonlanana kadar bekleniyor...
+2025-04-20 09:44:40,149 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama thread'i sonlanmadı, devam ediliyor
+2025-04-20 09:44:40,149 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durduruldu
+2025-04-20 09:44:40,149 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 09:44:40,150 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 09:44:40,151 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 09:51:07,350 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ başlatılıyor...
+2025-04-20 09:51:07,351 - NetworkShieldPro.screens - DEBUG - Background ayarlanıyor...
+2025-04-20 09:51:07,351 - NetworkShieldPro.screens - DEBUG - Background ayarlandı
+2025-04-20 09:51:07,352 - NetworkShieldPro.screens - DEBUG - ARPScanner oluşturuluyor...
+2025-04-20 09:51:07,352 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:51:07,353 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 09:51:07,353 - NetworkShieldPro.ARPScanner - INFO - Kaydedilmiş tarama aralığı yüklendi: 24 saat
+2025-04-20 09:51:07,354 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:51:07,355 - NetworkShieldPro.settings - DEBUG - Ayar okundu: periodic_scan_active = False
+2025-04-20 09:51:07,355 - NetworkShieldPro.screens - DEBUG - ARPScanner başarıyla oluşturuldu.
+2025-04-20 09:51:07,355 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuluyor...
+2025-04-20 09:51:07,992 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuldu.
+2025-04-20 09:51:07,992 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuluyor...
+2025-04-20 09:51:08,056 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuldu.
+2025-04-20 09:51:08,057 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösteriliyor...
+2025-04-20 09:51:08,058 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösterildi.
+2025-04-20 09:51:08,059 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatılıyor...
+2025-04-20 09:51:08,060 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatıldı.
+2025-04-20 09:51:08,060 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ tamamlandı
+2025-04-20 09:51:08,061 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:51:08,061 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 09:51:08,061 - NetworkShieldPro - INFO - Otomatik tarama ayarı aktif, periyodik tarama başlatılıyor
+2025-04-20 09:51:08,062 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:51:08,063 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 09:51:08,063 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:08,064 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:51:08,064 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (aktif)
+2025-04-20 09:51:08,065 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 09:51:08,065 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 09:51:08,066 - NetworkShieldPro.screens - INFO - Periyodik tarama başlatıldı - Her 24 saatte bir
+2025-04-20 09:51:08,066 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 09:51:08,066 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 09:51:08,121 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 09:51:08,225 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:51:08,314 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:51:08,346 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:51:08,562 - NetworkShieldPro.ARPScanner - WARNING - Tarama zaten çalışıyor
+2025-04-20 09:51:08,726 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 09:51:11,707 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:11,708 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 09:51:11,709 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:11,709 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 09:51:11,710 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:11,710 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 09:51:11,711 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:11,711 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 09:51:16,618 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 09:51:16,618 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 09:51:16,656 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 09:51:16,730 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:51:16,804 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:51:16,805 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:51:17,055 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 09:51:19,737 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:19,738 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 09:51:19,738 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:51:19,740 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:51:19,740 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (pasif)
+2025-04-20 09:51:19,740 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i sonlanana kadar bekleniyor...
+2025-04-20 09:51:21,752 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama thread'i sonlanmadı, devam ediliyor
+2025-04-20 09:51:21,752 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durduruldu
+2025-04-20 09:51:21,753 - NetworkShieldPro.screens - INFO - Periyodik tarama durduruldu
+2025-04-20 09:51:24,361 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:51:24,362 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 09:51:24,362 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:24,363 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:51:24,363 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (aktif)
+2025-04-20 09:51:24,364 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 09:51:24,364 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 09:51:24,365 - NetworkShieldPro.screens - INFO - Periyodik tarama başlatıldı - Her 24 saatte bir
+2025-04-20 09:51:24,365 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 09:51:24,365 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 09:51:24,408 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 09:51:24,482 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:51:24,555 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:51:24,555 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:51:24,815 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 09:51:25,509 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:25,509 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 09:51:25,510 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:25,511 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:51:25,513 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:25,513 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 09:51:25,514 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:51:25,515 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:51:25,515 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (pasif)
+2025-04-20 09:51:25,515 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i sonlanana kadar bekleniyor...
+2025-04-20 09:51:27,530 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama thread'i sonlanmadı, devam ediliyor
+2025-04-20 09:51:27,531 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durduruldu
+2025-04-20 09:51:27,531 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 09:51:27,531 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 09:51:27,532 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 09:51:28,067 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama döngüsü sona erdi
+2025-04-20 09:51:34,366 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama döngüsü sona erdi
+2025-04-20 09:51:34,369 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:51:34,369 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 09:51:34,370 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:51:34,371 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:51:34,371 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 09:51:34,372 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 09:51:34,372 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 09:51:39,242 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ başlatılıyor...
+2025-04-20 09:51:39,243 - NetworkShieldPro.screens - DEBUG - Background ayarlanıyor...
+2025-04-20 09:51:39,244 - NetworkShieldPro.screens - DEBUG - Background ayarlandı
+2025-04-20 09:51:39,244 - NetworkShieldPro.screens - DEBUG - ARPScanner oluşturuluyor...
+2025-04-20 09:51:39,245 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:51:39,245 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 09:51:39,246 - NetworkShieldPro.ARPScanner - INFO - Kaydedilmiş tarama aralığı yüklendi: 24 saat
+2025-04-20 09:51:39,246 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:51:39,246 - NetworkShieldPro.settings - DEBUG - Ayar okundu: periodic_scan_active = False
+2025-04-20 09:51:39,247 - NetworkShieldPro.screens - DEBUG - ARPScanner başarıyla oluşturuldu.
+2025-04-20 09:51:39,247 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuluyor...
+2025-04-20 09:51:39,832 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuldu.
+2025-04-20 09:51:39,832 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuluyor...
+2025-04-20 09:51:39,888 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuldu.
+2025-04-20 09:51:39,888 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösteriliyor...
+2025-04-20 09:51:39,890 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösterildi.
+2025-04-20 09:51:39,890 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatılıyor...
+2025-04-20 09:51:39,891 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatıldı.
+2025-04-20 09:51:39,891 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ tamamlandı
+2025-04-20 09:51:39,896 - NetworkShieldPro - INFO - Sistem tepsisi ikonu başarıyla oluşturuldu
+2025-04-20 09:51:39,897 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:51:39,898 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 09:51:39,899 - NetworkShieldPro - INFO - Otomatik tarama ayarı aktif, periyodik tarama başlatılıyor
+2025-04-20 09:51:39,899 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:51:39,904 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 09:51:39,904 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:39,907 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:51:39,907 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (aktif)
+2025-04-20 09:51:39,908 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 09:51:39,908 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 09:51:39,908 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 09:51:39,909 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 09:51:39,909 - NetworkShieldPro.screens - INFO - Periyodik tarama başlatıldı - Her 24 saatte bir
+2025-04-20 09:51:39,950 - PIL.Image - DEBUG - Importing AvifImagePlugin
+2025-04-20 09:51:39,954 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-04-20 09:51:39,958 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-04-20 09:51:39,959 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-04-20 09:51:39,962 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-04-20 09:51:39,964 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-04-20 09:51:39,969 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-04-20 09:51:39,970 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 09:51:39,978 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-04-20 09:51:39,983 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-04-20 09:51:39,989 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-04-20 09:51:39,991 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-04-20 09:51:39,995 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-04-20 09:51:39,996 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-04-20 09:51:39,998 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-04-20 09:51:40,001 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-04-20 09:51:40,001 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-04-20 09:51:40,003 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-04-20 09:51:40,005 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-04-20 09:51:40,012 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-04-20 09:51:40,015 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-04-20 09:51:40,019 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-04-20 09:51:40,021 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-04-20 09:51:40,024 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-04-20 09:51:40,026 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-04-20 09:51:40,026 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-04-20 09:51:40,029 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-04-20 09:51:40,032 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-04-20 09:51:40,032 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-04-20 09:51:40,034 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-04-20 09:51:40,056 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-04-20 09:51:40,059 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-04-20 09:51:40,061 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-04-20 09:51:40,065 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-04-20 09:51:40,066 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-04-20 09:51:40,080 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-04-20 09:51:40,083 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-04-20 09:51:40,083 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-04-20 09:51:40,084 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-04-20 09:51:40,087 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-04-20 09:51:40,090 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-04-20 09:51:40,092 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-04-20 09:51:40,092 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:51:40,094 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-04-20 09:51:40,096 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-04-20 09:51:40,098 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-04-20 09:51:40,099 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-04-20 09:51:40,106 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-04-20 09:51:40,108 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-04-20 09:51:40,111 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-04-20 09:51:40,114 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-04-20 09:51:40,184 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:51:40,228 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:51:40,404 - NetworkShieldPro.ARPScanner - WARNING - Tarama zaten çalışıyor
+2025-04-20 09:51:40,560 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 09:51:44,340 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:51:49,965 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:49,966 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 09:51:49,967 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:49,967 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 09:51:49,968 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:49,968 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 09:51:49,969 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:49,969 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 09:51:51,845 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:51,845 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 09:51:51,846 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:51,847 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 09:51:51,847 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:51,848 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 09:51:51,848 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:51,849 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 09:51:55,396 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:51:59,973 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:59,974 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 09:51:59,975 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:59,975 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 09:51:59,976 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:59,976 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 09:51:59,977 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:51:59,977 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 09:52:01,384 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:52:01,385 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 09:52:01,388 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:52:01,388 - NetworkShieldPro.settings - DEBUG - Ayarlar toplu güncellendi: {'scan_interval': 24, 'auto_scan': True, 'notifications_enabled': True, 'dark_mode': True}
+2025-04-20 09:52:01,389 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:52:01,390 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:52:02,844 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:52:04,724 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:52:04,724 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 09:52:04,726 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:52:04,728 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:52:04,728 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (pasif)
+2025-04-20 09:52:04,728 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i sonlanana kadar bekleniyor...
+2025-04-20 09:52:06,740 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama thread'i sonlanmadı, devam ediliyor
+2025-04-20 09:52:06,741 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durduruldu
+2025-04-20 09:52:06,744 - NetworkShieldPro.screens - INFO - Periyodik tarama durduruldu
+2025-04-20 09:52:08,106 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:52:08,106 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 09:52:08,107 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:52:08,108 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:52:08,109 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (aktif)
+2025-04-20 09:52:08,110 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 09:52:08,110 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 09:52:08,110 - NetworkShieldPro.screens - INFO - Periyodik tarama başlatıldı - Her 24 saatte bir
+2025-04-20 09:52:08,111 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 09:52:08,111 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 09:52:08,148 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 09:52:08,221 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:52:08,293 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:52:08,294 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:52:08,549 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 09:52:21,402 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 09:52:21,402 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 09:52:21,404 - NetworkShieldPro - INFO - Manuel tarama başlatıldı
+2025-04-20 09:52:21,440 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 09:52:21,512 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:52:21,583 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:52:21,584 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:52:21,755 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 09:52:29,556 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:52:29,557 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 09:52:29,558 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:52:29,558 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 09:52:29,559 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:52:29,559 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 09:52:29,559 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:52:29,560 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = True
+2025-04-20 09:52:35,819 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:52:37,240 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 09:52:37,240 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 09:52:37,279 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 09:52:37,352 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:52:37,423 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:52:37,425 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:52:37,628 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 09:52:40,112 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:52:40,112 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 09:52:40,113 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:52:40,114 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:52:40,116 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:52:40,117 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 09:52:40,117 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:52:40,118 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:52:40,118 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (pasif)
+2025-04-20 09:52:40,118 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i sonlanana kadar bekleniyor...
+2025-04-20 09:52:42,127 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama thread'i sonlanmadı, devam ediliyor
+2025-04-20 09:52:42,128 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durduruldu
+2025-04-20 09:52:42,129 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 09:52:42,129 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 09:52:42,129 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 09:52:48,111 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama döngüsü sona erdi
+2025-04-20 09:52:49,910 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama döngüsü sona erdi
+2025-04-20 09:52:49,913 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:52:49,913 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 09:52:49,914 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:52:49,915 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:52:49,916 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 09:52:49,916 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 09:52:49,916 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 09:56:17,254 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ başlatılıyor...
+2025-04-20 09:56:17,255 - NetworkShieldPro.screens - DEBUG - Background ayarlanıyor...
+2025-04-20 09:56:17,255 - NetworkShieldPro.screens - DEBUG - Background ayarlandı
+2025-04-20 09:56:17,255 - NetworkShieldPro.screens - DEBUG - ARPScanner oluşturuluyor...
+2025-04-20 09:56:17,256 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:56:17,256 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 09:56:17,256 - NetworkShieldPro.ARPScanner - INFO - Kaydedilmiş tarama aralığı yüklendi: 24 saat
+2025-04-20 09:56:17,257 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:56:17,257 - NetworkShieldPro.settings - DEBUG - Ayar okundu: periodic_scan_active = False
+2025-04-20 09:56:17,258 - NetworkShieldPro.screens - DEBUG - ARPScanner başarıyla oluşturuldu.
+2025-04-20 09:56:17,258 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuluyor...
+2025-04-20 09:56:17,814 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuldu.
+2025-04-20 09:56:17,815 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuluyor...
+2025-04-20 09:56:17,871 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuldu.
+2025-04-20 09:56:17,871 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösteriliyor...
+2025-04-20 09:56:17,873 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösterildi.
+2025-04-20 09:56:17,873 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatılıyor...
+2025-04-20 09:56:17,874 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatıldı.
+2025-04-20 09:56:17,875 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ tamamlandı
+2025-04-20 09:56:17,875 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:56:17,876 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 09:56:17,876 - NetworkShieldPro - INFO - Otomatik tarama ayarı aktif, periyodik tarama başlatılıyor
+2025-04-20 09:56:17,876 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:56:17,877 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 09:56:17,877 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:56:17,878 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:56:17,878 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (aktif)
+2025-04-20 09:56:17,879 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 09:56:17,879 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 09:56:17,880 - NetworkShieldPro.screens - INFO - Periyodik tarama başlatıldı - Her 24 saatte bir
+2025-04-20 09:56:17,880 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 09:56:17,880 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 09:56:17,933 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 09:56:18,035 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:56:18,124 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 09:56:18,160 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:56:18,375 - NetworkShieldPro.ARPScanner - WARNING - Tarama zaten çalışıyor
+2025-04-20 09:56:18,521 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 09:56:23,532 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:56:32,509 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:56:32,509 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 09:56:32,510 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:56:32,510 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 09:56:32,511 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:56:32,511 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 09:56:32,512 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:56:32,512 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 09:56:35,493 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 09:56:36,541 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:56:36,541 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 09:56:36,542 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:56:36,542 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 09:56:36,543 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:56:36,543 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 09:56:36,544 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:56:36,544 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 09:56:57,170 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:56:57,171 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 09:56:57,171 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:56:57,172 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:56:57,174 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 09:56:57,175 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 09:56:57,175 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:56:57,176 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:56:57,177 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (pasif)
+2025-04-20 09:56:57,177 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i sonlanana kadar bekleniyor...
+2025-04-20 09:56:57,881 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama döngüsü sona erdi
+2025-04-20 09:56:57,883 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i başarıyla sonlandı
+2025-04-20 09:56:57,884 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durduruldu
+2025-04-20 09:56:57,884 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 09:56:57,884 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 09:56:57,884 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 09:56:57,886 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:56:57,886 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 09:56:57,886 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 09:56:57,888 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 09:56:57,888 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 09:56:57,888 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 09:56:57,888 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:00:13,852 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ başlatılıyor...
+2025-04-20 10:00:13,852 - NetworkShieldPro.screens - DEBUG - Background ayarlanıyor...
+2025-04-20 10:00:13,853 - NetworkShieldPro.screens - DEBUG - Background ayarlandı
+2025-04-20 10:00:13,853 - NetworkShieldPro.screens - DEBUG - ARPScanner oluşturuluyor...
+2025-04-20 10:00:13,853 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:00:13,854 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:00:13,854 - NetworkShieldPro.ARPScanner - INFO - Kaydedilmiş tarama aralığı yüklendi: 24 saat
+2025-04-20 10:00:13,855 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:00:13,855 - NetworkShieldPro.settings - DEBUG - Ayar okundu: periodic_scan_active = False
+2025-04-20 10:00:13,855 - NetworkShieldPro.screens - DEBUG - ARPScanner başarıyla oluşturuldu.
+2025-04-20 10:00:13,855 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuluyor...
+2025-04-20 10:00:14,480 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuldu.
+2025-04-20 10:00:14,481 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuluyor...
+2025-04-20 10:00:14,555 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuldu.
+2025-04-20 10:00:14,555 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösteriliyor...
+2025-04-20 10:00:14,557 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösterildi.
+2025-04-20 10:00:14,558 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatılıyor...
+2025-04-20 10:00:14,559 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatıldı.
+2025-04-20 10:00:14,559 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ tamamlandı
+2025-04-20 10:00:14,560 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:00:14,560 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:00:14,560 - NetworkShieldPro - INFO - Otomatik tarama ayarı aktif, periyodik tarama başlatılıyor
+2025-04-20 10:00:14,561 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:00:14,562 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 10:00:14,562 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:14,564 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:00:14,564 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (aktif)
+2025-04-20 10:00:14,566 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 10:00:14,566 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 10:00:14,566 - NetworkShieldPro.screens - INFO - Periyodik tarama başlatıldı - Her 24 saatte bir
+2025-04-20 10:00:14,567 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:00:14,567 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:00:14,628 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:00:14,738 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:00:14,825 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:00:14,864 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:00:15,061 - NetworkShieldPro.ARPScanner - WARNING - Tarama zaten çalışıyor
+2025-04-20 10:00:15,254 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:00:16,633 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:16,633 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:00:16,635 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:16,635 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:00:16,636 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:16,636 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:00:16,637 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:16,637 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 10:00:17,248 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:00:18,144 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:18,145 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:00:18,146 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:18,146 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:00:18,147 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:18,147 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:00:18,147 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:18,148 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 10:00:19,545 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:19,545 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:00:19,546 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:19,546 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:00:19,547 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:19,547 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:00:19,547 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:19,547 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 10:00:20,265 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:20,265 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:00:20,266 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:20,266 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:00:20,267 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:20,268 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:00:20,268 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:20,269 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 10:00:23,200 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:00:25,193 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:25,193 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:00:25,194 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:25,194 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:00:25,195 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:25,196 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:00:25,197 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:25,197 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 10:00:34,975 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:34,975 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 10:00:34,975 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:34,977 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:00:34,979 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:00:34,979 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:00:34,979 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:00:34,980 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:00:34,981 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (pasif)
+2025-04-20 10:00:34,981 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i sonlanana kadar bekleniyor...
+2025-04-20 10:00:36,989 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama thread'i sonlanmadı, devam ediliyor
+2025-04-20 10:00:36,989 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durduruldu
+2025-04-20 10:00:36,989 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:00:36,990 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:00:36,990 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:00:44,568 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama döngüsü sona erdi
+2025-04-20 10:00:44,571 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:00:44,571 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:00:44,571 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:00:44,573 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:00:44,574 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:00:44,574 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:00:44,574 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:05:08,252 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ başlatılıyor...
+2025-04-20 10:05:08,255 - NetworkShieldPro.screens - DEBUG - Background ayarlanıyor...
+2025-04-20 10:05:08,256 - NetworkShieldPro.screens - DEBUG - Background ayarlandı
+2025-04-20 10:05:08,256 - NetworkShieldPro.screens - DEBUG - ARPScanner oluşturuluyor...
+2025-04-20 10:05:08,257 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:05:08,257 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:05:08,258 - NetworkShieldPro.ARPScanner - INFO - Kaydedilmiş tarama aralığı yüklendi: 24 saat
+2025-04-20 10:05:08,258 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:05:08,259 - NetworkShieldPro.settings - DEBUG - Ayar okundu: periodic_scan_active = False
+2025-04-20 10:05:08,259 - NetworkShieldPro.screens - DEBUG - ARPScanner başarıyla oluşturuldu.
+2025-04-20 10:05:08,259 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuluyor...
+2025-04-20 10:05:08,811 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuldu.
+2025-04-20 10:05:08,811 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuluyor...
+2025-04-20 10:05:08,868 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuldu.
+2025-04-20 10:05:08,869 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösteriliyor...
+2025-04-20 10:05:08,870 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösterildi.
+2025-04-20 10:05:08,871 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatılıyor...
+2025-04-20 10:05:08,872 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatıldı.
+2025-04-20 10:05:08,872 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ tamamlandı
+2025-04-20 10:05:08,873 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:05:08,873 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:05:08,873 - NetworkShieldPro - INFO - Otomatik tarama ayarı aktif, periyodik tarama başlatılıyor
+2025-04-20 10:05:08,874 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:05:08,874 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 10:05:08,874 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:08,875 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:05:08,875 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (aktif)
+2025-04-20 10:05:08,877 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 10:05:08,877 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 10:05:08,878 - NetworkShieldPro.screens - INFO - Periyodik tarama başlatıldı - Her 24 saatte bir
+2025-04-20 10:05:08,878 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:05:08,878 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:05:08,930 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:05:09,035 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:05:09,122 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:05:09,129 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:09,375 - NetworkShieldPro.ARPScanner - WARNING - Tarama zaten çalışıyor
+2025-04-20 10:05:09,466 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:05:11,906 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:11,906 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:05:11,907 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:11,907 - NetworkShieldPro.settings - DEBUG - Ayarlar toplu güncellendi: {'scan_interval': 24, 'auto_scan': True, 'notifications_enabled': True, 'dark_mode': True}
+2025-04-20 10:05:11,907 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:11,908 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:05:13,709 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:13,710 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:05:13,711 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:13,711 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:05:13,712 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:13,712 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:05:13,712 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:13,713 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = True
+2025-04-20 10:05:17,363 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:25,020 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:25,021 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:05:25,022 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:25,022 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:05:25,023 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:25,023 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:05:25,023 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:25,024 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = True
+2025-04-20 10:05:27,115 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:27,827 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:28,068 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:28,251 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:28,435 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:28,612 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:28,747 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:28,955 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:29,484 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:29,971 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:30,443 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:30,612 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:30,779 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:30,935 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:31,068 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:31,692 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:05:35,572 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:35,572 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:05:35,573 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:35,573 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:05:35,574 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:35,574 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:05:35,575 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:35,575 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = True
+2025-04-20 10:05:36,492 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:36,493 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:05:36,494 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:36,494 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:05:36,495 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:36,495 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:05:36,495 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:36,496 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = True
+2025-04-20 10:05:38,382 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:38,382 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 10:05:38,383 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:38,384 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:05:38,385 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:05:38,386 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:05:38,386 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:05:38,387 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:05:38,387 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (pasif)
+2025-04-20 10:05:38,387 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i sonlanana kadar bekleniyor...
+2025-04-20 10:05:38,879 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama döngüsü sona erdi
+2025-04-20 10:05:38,881 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i başarıyla sonlandı
+2025-04-20 10:05:38,882 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durduruldu
+2025-04-20 10:05:38,882 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:05:38,882 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:05:38,882 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:05:38,883 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:05:38,883 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:05:38,884 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:05:38,885 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:05:38,885 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:05:38,885 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:05:38,886 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:07:24,651 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ başlatılıyor...
+2025-04-20 10:07:24,651 - NetworkShieldPro.screens - DEBUG - Background ayarlanıyor...
+2025-04-20 10:07:24,652 - NetworkShieldPro.screens - DEBUG - Background ayarlandı
+2025-04-20 10:07:24,652 - NetworkShieldPro.screens - DEBUG - ARPScanner oluşturuluyor...
+2025-04-20 10:07:24,652 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:07:24,653 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:07:24,653 - NetworkShieldPro.ARPScanner - INFO - Kaydedilmiş tarama aralığı yüklendi: 24 saat
+2025-04-20 10:07:24,654 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:07:24,654 - NetworkShieldPro.settings - DEBUG - Ayar okundu: periodic_scan_active = False
+2025-04-20 10:07:24,654 - NetworkShieldPro.screens - DEBUG - ARPScanner başarıyla oluşturuldu.
+2025-04-20 10:07:24,655 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuluyor...
+2025-04-20 10:07:25,201 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuldu.
+2025-04-20 10:07:25,201 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuluyor...
+2025-04-20 10:07:25,263 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuldu.
+2025-04-20 10:07:25,263 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösteriliyor...
+2025-04-20 10:07:25,266 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösterildi.
+2025-04-20 10:07:25,266 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatılıyor...
+2025-04-20 10:07:25,267 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatıldı.
+2025-04-20 10:07:25,268 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ tamamlandı
+2025-04-20 10:07:25,268 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:07:25,269 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:07:25,269 - NetworkShieldPro - INFO - Otomatik tarama ayarı aktif, periyodik tarama başlatılıyor
+2025-04-20 10:07:25,270 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:07:25,270 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 10:07:25,270 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:25,272 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:07:25,272 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (aktif)
+2025-04-20 10:07:25,273 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 10:07:25,273 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 10:07:25,274 - NetworkShieldPro.screens - INFO - Periyodik tarama başlatıldı - Her 24 saatte bir
+2025-04-20 10:07:25,274 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:07:25,274 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:07:25,331 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:07:25,429 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:07:25,512 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:07:25,513 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:07:25,709 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:07:25,768 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:07:25,768 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:07:25,805 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:07:25,881 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:07:25,955 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:07:25,956 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:07:26,187 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:07:27,987 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:27,987 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:07:27,988 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:27,989 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:07:27,989 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:27,989 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:07:27,990 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:27,990 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 10:07:33,840 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:33,840 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:07:33,841 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:33,841 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: scan_interval = 3
+2025-04-20 10:07:33,842 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 3, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:33,843 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:07:33,843 - NetworkShieldPro.ARPScanner - INFO - Tarama aralığı kaydedildi: 3 saat
+2025-04-20 10:07:33,843 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışıyor
+2025-04-20 10:07:33,861 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 3, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:33,861 - NetworkShieldPro.settings - DEBUG - Ayarlar toplu güncellendi: {'scan_interval': 3, 'auto_scan': True, 'notifications_enabled': True, 'dark_mode': True}
+2025-04-20 10:07:33,862 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 3, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:33,863 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:07:37,008 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 3, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:37,008 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:07:37,008 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 3, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:07:37,011 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:07:37,011 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (pasif)
+2025-04-20 10:07:37,012 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i sonlanana kadar bekleniyor...
+2025-04-20 10:07:39,013 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama thread'i sonlanmadı, devam ediliyor
+2025-04-20 10:07:39,014 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durduruldu
+2025-04-20 10:07:39,014 - NetworkShieldPro.screens - INFO - Periyodik tarama durduruldu
+2025-04-20 10:07:40,895 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 3, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:07:40,896 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 10:07:40,896 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 3, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:40,897 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:07:40,898 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (aktif)
+2025-04-20 10:07:40,898 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 3 saatte bir)
+2025-04-20 10:07:40,898 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 3 saatte bir)
+2025-04-20 10:07:40,899 - NetworkShieldPro.screens - INFO - Periyodik tarama başlatıldı - Her 3 saatte bir
+2025-04-20 10:07:40,899 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:07:40,899 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:07:40,938 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:07:41,011 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:07:41,086 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:07:41,087 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:07:41,373 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:07:54,525 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 3, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:54,525 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 3
+2025-04-20 10:07:54,526 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 3, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:54,527 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:07:54,527 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 3, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:54,527 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:07:54,528 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 3, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:07:54,528 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = True
+2025-04-20 10:08:02,954 - NetworkShieldPro.settings - INFO - Ayarlar varsayılan değerlere sıfırlanıyor
+2025-04-20 10:08:02,954 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:08:02,955 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:08:02,957 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:08:02,957 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:08:02,958 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:08:02,958 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:08:02,959 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:08:02,959 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:08:02,960 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:08:02,960 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 10:08:08,063 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:08:08,064 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:08:08,064 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:08:08,065 - NetworkShieldPro.settings - DEBUG - Ayarlar toplu güncellendi: {'scan_interval': 24, 'auto_scan': True, 'notifications_enabled': True, 'dark_mode': False}
+2025-04-20 10:08:08,065 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:08:08,066 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:09:01,662 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:09:01,662 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 10:09:01,663 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:09:01,664 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:09:01,666 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:09:01,666 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:09:01,667 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:09:01,668 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:09:01,668 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (pasif)
+2025-04-20 10:09:01,668 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i sonlanana kadar bekleniyor...
+2025-04-20 10:09:03,676 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama thread'i sonlanmadı, devam ediliyor
+2025-04-20 10:09:03,676 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durduruldu
+2025-04-20 10:09:03,676 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:09:03,676 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:09:03,677 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:09:05,275 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama döngüsü sona erdi
+2025-04-20 10:09:10,901 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama döngüsü sona erdi
+2025-04-20 10:09:10,903 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:09:10,903 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:09:10,904 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:09:10,905 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:09:10,905 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:09:10,905 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:09:10,905 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:13:43,795 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ başlatılıyor...
+2025-04-20 10:13:43,796 - NetworkShieldPro.screens - DEBUG - Background ayarlanıyor...
+2025-04-20 10:13:43,799 - NetworkShieldPro.screens - DEBUG - Background ayarlandı
+2025-04-20 10:13:43,800 - NetworkShieldPro.screens - DEBUG - ARPScanner oluşturuluyor...
+2025-04-20 10:13:43,804 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:13:43,805 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:13:43,807 - NetworkShieldPro.ARPScanner - INFO - Kaydedilmiş tarama aralığı yüklendi: 24 saat
+2025-04-20 10:13:43,811 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:13:43,812 - NetworkShieldPro.settings - DEBUG - Ayar okundu: periodic_scan_active = False
+2025-04-20 10:13:43,813 - NetworkShieldPro.screens - DEBUG - ARPScanner başarıyla oluşturuldu.
+2025-04-20 10:13:43,816 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuluyor...
+2025-04-20 10:13:44,454 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuldu.
+2025-04-20 10:13:44,454 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuluyor...
+2025-04-20 10:13:44,515 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuldu.
+2025-04-20 10:13:44,515 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösteriliyor...
+2025-04-20 10:13:44,517 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösterildi.
+2025-04-20 10:13:44,517 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatılıyor...
+2025-04-20 10:13:44,519 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatıldı.
+2025-04-20 10:13:44,519 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ tamamlandı
+2025-04-20 10:13:44,520 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:13:44,520 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:13:44,520 - NetworkShieldPro - INFO - Otomatik tarama ayarı aktif, periyodik tarama başlatılıyor
+2025-04-20 10:13:44,521 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:13:44,521 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 10:13:44,521 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:13:44,522 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:13:44,523 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (aktif)
+2025-04-20 10:13:44,524 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 10:13:44,524 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 10:13:44,525 - NetworkShieldPro.screens - INFO - Periyodik tarama başlatıldı - Her 24 saatte bir
+2025-04-20 10:13:44,525 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:13:44,525 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:13:44,674 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:13:44,781 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:13:44,867 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:13:44,868 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:13:45,025 - NetworkShieldPro.ARPScanner - WARNING - Tarama zaten çalışıyor
+2025-04-20 10:13:45,082 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:13:46,901 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:13:46,901 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:13:46,902 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:13:46,902 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:13:46,903 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:13:46,903 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:13:46,904 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:13:46,904 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 10:13:49,748 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:13:49,749 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:13:49,749 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:13:49,749 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:13:49,750 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:13:49,750 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:13:49,751 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:13:49,752 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 10:14:11,836 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:14,140 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:14,141 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:14:14,141 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:14,142 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:14:14,142 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:14,143 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:14:14,143 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:14,143 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 10:14:16,732 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:19,861 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:19,861 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:14:19,862 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:19,862 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:14:19,863 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:19,863 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:14:19,864 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:19,865 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 10:14:22,658 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:22,658 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:14:22,659 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:22,659 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: scan_interval = 1
+2025-04-20 10:14:22,659 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:22,660 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:14:22,660 - NetworkShieldPro.ARPScanner - INFO - Tarama aralığı kaydedildi: 1 saat
+2025-04-20 10:14:22,660 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışıyor
+2025-04-20 10:14:22,675 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:22,675 - NetworkShieldPro.settings - DEBUG - Ayarlar toplu güncellendi: {'scan_interval': 1, 'auto_scan': True, 'notifications_enabled': True, 'dark_mode': True}
+2025-04-20 10:14:22,675 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:22,676 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:14:32,533 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:32,931 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:33,092 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:33,260 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:33,431 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:33,599 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:33,780 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:33,956 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:34,140 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:34,371 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:34,587 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:34,811 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:35,033 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:35,220 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:35,428 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:35,627 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:35,844 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:36,043 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:36,251 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:39,852 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:43,317 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:43,317 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 1
+2025-04-20 10:14:43,318 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:43,318 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:14:43,319 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:43,320 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:14:43,321 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:14:43,321 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = True
+2025-04-20 10:14:46,908 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:57,449 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:14:57,449 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:14:57,486 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:14:57,561 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:14:57,634 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:14:57,635 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:14:57,899 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:15:09,788 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:15:09,788 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 1
+2025-04-20 10:15:09,789 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:15:09,790 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:15:09,791 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:15:09,791 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:15:09,792 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:15:09,792 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = True
+2025-04-20 10:15:11,181 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:15:11,181 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 10:15:11,181 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:15:11,183 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:15:11,185 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:15:11,185 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:15:11,185 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:15:11,186 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:15:11,187 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (pasif)
+2025-04-20 10:15:11,187 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i sonlanana kadar bekleniyor...
+2025-04-20 10:15:13,191 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama thread'i sonlanmadı, devam ediliyor
+2025-04-20 10:15:13,191 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durduruldu
+2025-04-20 10:15:13,192 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:15:13,192 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:15:13,192 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:15:14,527 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama döngüsü sona erdi
+2025-04-20 10:15:14,529 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:15:14,530 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:15:14,530 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 1, 'auto_scan': True, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:15:14,531 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:15:14,531 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:15:14,532 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:15:14,532 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:23:25,096 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ başlatılıyor...
+2025-04-20 10:23:25,096 - NetworkShieldPro.screens - DEBUG - Background ayarlanıyor...
+2025-04-20 10:23:25,100 - NetworkShieldPro.screens - DEBUG - Background ayarlandı
+2025-04-20 10:23:25,100 - NetworkShieldPro.screens - DEBUG - ARPScanner oluşturuluyor...
+2025-04-20 10:23:25,101 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:23:25,101 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:23:25,101 - NetworkShieldPro.ARPScanner - INFO - Kaydedilmiş tarama aralığı yüklendi: 24 saat
+2025-04-20 10:23:25,102 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:23:25,102 - NetworkShieldPro.settings - DEBUG - Ayar okundu: periodic_scan_active = False
+2025-04-20 10:23:25,102 - NetworkShieldPro.screens - DEBUG - ARPScanner başarıyla oluşturuldu.
+2025-04-20 10:23:25,103 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuluyor...
+2025-04-20 10:23:25,704 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuldu.
+2025-04-20 10:23:25,704 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuluyor...
+2025-04-20 10:23:25,764 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuldu.
+2025-04-20 10:23:25,764 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösteriliyor...
+2025-04-20 10:23:25,766 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösterildi.
+2025-04-20 10:23:25,766 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatılıyor...
+2025-04-20 10:23:25,768 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatıldı.
+2025-04-20 10:23:25,768 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ tamamlandı
+2025-04-20 10:23:25,769 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:23:25,769 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:23:25,769 - NetworkShieldPro - INFO - Otomatik tarama ayarı aktif, periyodik tarama başlatılıyor
+2025-04-20 10:23:25,769 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:23:25,770 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 10:23:25,770 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:23:25,771 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:23:25,771 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (aktif)
+2025-04-20 10:23:25,773 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 10:23:25,773 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 10:23:25,773 - NetworkShieldPro.screens - INFO - Periyodik tarama başlatıldı - Her 24 saatte bir
+2025-04-20 10:23:25,774 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:23:25,774 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:23:25,830 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:23:25,933 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:23:26,016 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:23:26,017 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:23:26,233 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:23:26,272 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:23:26,272 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:23:26,309 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:23:26,381 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:23:26,459 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:23:26,459 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:23:26,715 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:23:27,374 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:23:27,374 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:23:27,375 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:23:27,375 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:23:27,376 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:23:27,376 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:23:27,377 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:23:27,378 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 10:23:37,923 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:23:37,923 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:23:37,924 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:23:37,924 - NetworkShieldPro.settings - DEBUG - Ayarlar toplu güncellendi: {'scan_interval': 24, 'auto_scan': False, 'notifications_enabled': True, 'dark_mode': True}
+2025-04-20 10:23:37,925 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:23:37,926 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:23:46,031 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:23:46,031 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 10:23:46,031 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:23:46,033 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:23:46,035 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:23:46,035 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:23:46,035 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:23:46,036 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:23:46,037 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (pasif)
+2025-04-20 10:23:46,037 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i sonlanana kadar bekleniyor...
+2025-04-20 10:23:48,044 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama thread'i sonlanmadı, devam ediliyor
+2025-04-20 10:23:48,044 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durduruldu
+2025-04-20 10:23:48,044 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:23:48,045 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:23:48,045 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:23:55,775 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama döngüsü sona erdi
+2025-04-20 10:23:55,778 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:23:55,778 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:23:55,779 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:23:55,780 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:23:55,780 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:23:55,780 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:23:55,781 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:23:58,071 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ başlatılıyor...
+2025-04-20 10:23:58,071 - NetworkShieldPro.screens - DEBUG - Background ayarlanıyor...
+2025-04-20 10:23:58,071 - NetworkShieldPro.screens - DEBUG - Background ayarlandı
+2025-04-20 10:23:58,072 - NetworkShieldPro.screens - DEBUG - ARPScanner oluşturuluyor...
+2025-04-20 10:23:58,072 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:23:58,073 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:23:58,073 - NetworkShieldPro.ARPScanner - INFO - Kaydedilmiş tarama aralığı yüklendi: 24 saat
+2025-04-20 10:23:58,074 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:23:58,074 - NetworkShieldPro.settings - DEBUG - Ayar okundu: periodic_scan_active = False
+2025-04-20 10:23:58,074 - NetworkShieldPro.screens - DEBUG - ARPScanner başarıyla oluşturuldu.
+2025-04-20 10:23:58,074 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuluyor...
+2025-04-20 10:23:58,669 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuldu.
+2025-04-20 10:23:58,670 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuluyor...
+2025-04-20 10:23:58,727 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuldu.
+2025-04-20 10:23:58,727 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösteriliyor...
+2025-04-20 10:23:58,729 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösterildi.
+2025-04-20 10:23:58,729 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatılıyor...
+2025-04-20 10:23:58,731 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatıldı.
+2025-04-20 10:23:58,731 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ tamamlandı
+2025-04-20 10:23:58,731 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:23:58,732 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = False
+2025-04-20 10:23:59,234 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:23:59,234 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:23:59,277 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:23:59,357 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:23:59,431 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:23:59,432 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:23:59,653 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:24:02,773 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:24:02,773 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:24:02,774 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:24:02,774 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = False
+2025-04-20 10:24:02,775 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:24:02,775 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:24:02,776 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:24:02,776 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = True
+2025-04-20 10:24:32,828 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:24:53,092 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:24:56,330 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:24:56,330 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:24:56,367 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:24:56,443 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:24:56,516 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:24:56,517 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:24:56,772 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:24:57,514 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:24:57,514 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:24:57,552 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:24:57,627 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:24:57,700 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:24:57,701 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:24:57,975 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:24:58,210 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:24:58,210 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:24:58,248 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:24:58,320 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:24:58,396 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:24:58,397 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:24:58,669 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:24:58,857 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:24:58,857 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:24:58,895 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:24:58,970 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:24:59,045 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:24:59,046 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:24:59,375 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:24:59,465 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:24:59,465 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:24:59,501 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:24:59,573 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:24:59,646 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:24:59,647 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:24:59,950 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:25:00,729 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:25:00,729 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:25:00,766 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:25:00,837 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:25:00,911 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:25:00,911 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:25:01,244 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:25:01,641 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:25:01,641 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:25:01,680 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:25:01,752 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:25:01,827 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:25:01,828 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:25:02,162 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:25:02,554 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:25:02,554 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:25:02,593 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:25:02,665 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:25:02,743 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:25:02,743 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:25:03,127 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:25:09,669 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:25:14,597 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:25:16,566 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:25:20,549 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:25:20,550 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:25:20,550 - NetworkShieldPro.screens - ERROR - Ayarlar yüklenirken hata: 'Canvas' object has no attribute 'create_rounded_rectangle'
+2025-04-20 10:27:51,840 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:27:51,840 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:27:51,840 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:27:51,842 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:27:51,842 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:27:51,843 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:27:51,843 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:27:51,844 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:27:51,845 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:27:51,845 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:27:51,847 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:27:51,847 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:27:51,847 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:27:51,847 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:30:15,611 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ başlatılıyor...
+2025-04-20 10:30:15,611 - NetworkShieldPro.screens - DEBUG - Background ayarlanıyor...
+2025-04-20 10:30:15,612 - NetworkShieldPro.screens - DEBUG - Background ayarlandı
+2025-04-20 10:30:15,612 - NetworkShieldPro.screens - DEBUG - ARPScanner oluşturuluyor...
+2025-04-20 10:30:15,612 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:30:15,613 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:30:15,613 - NetworkShieldPro.ARPScanner - INFO - Kaydedilmiş tarama aralığı yüklendi: 24 saat
+2025-04-20 10:30:15,614 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:30:15,614 - NetworkShieldPro.settings - DEBUG - Ayar okundu: periodic_scan_active = False
+2025-04-20 10:30:15,614 - NetworkShieldPro.screens - DEBUG - ARPScanner başarıyla oluşturuldu.
+2025-04-20 10:30:15,614 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuluyor...
+2025-04-20 10:30:16,206 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuldu.
+2025-04-20 10:30:16,206 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuluyor...
+2025-04-20 10:30:16,259 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuldu.
+2025-04-20 10:30:16,259 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösteriliyor...
+2025-04-20 10:30:16,261 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösterildi.
+2025-04-20 10:30:16,262 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatılıyor...
+2025-04-20 10:30:16,263 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatıldı.
+2025-04-20 10:30:16,263 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ tamamlandı
+2025-04-20 10:30:16,264 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:30:16,264 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = False
+2025-04-20 10:30:16,766 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:30:16,766 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:30:16,809 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:30:16,890 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:30:16,966 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:30:16,967 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:30:17,179 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:43:04,675 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:43:04,676 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:43:04,676 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:43:04,679 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:43:04,679 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:43:04,680 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:43:04,680 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:43:04,681 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:43:04,681 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:43:04,681 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': False, 'dark_mode': True, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:43:04,684 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:43:04,684 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:43:04,685 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:43:04,685 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:43:38,388 - NetworkShieldPro - ERROR - İkon yüklenirken hata: No module named 'cairosvg'
+2025-04-20 10:43:38,983 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ başlatılıyor...
+2025-04-20 10:43:38,983 - NetworkShieldPro.screens - DEBUG - Background ayarlanıyor...
+2025-04-20 10:43:38,983 - NetworkShieldPro.screens - DEBUG - Background ayarlandı
+2025-04-20 10:43:38,983 - NetworkShieldPro.screens - DEBUG - ARPScanner oluşturuluyor...
+2025-04-20 10:43:38,984 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:43:38,984 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:43:38,984 - NetworkShieldPro.ARPScanner - INFO - Kaydedilmiş tarama aralığı yüklendi: 24 saat
+2025-04-20 10:43:38,985 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:43:38,986 - NetworkShieldPro.settings - DEBUG - Ayar okundu: periodic_scan_active = False
+2025-04-20 10:43:38,986 - NetworkShieldPro.screens - DEBUG - ARPScanner başarıyla oluşturuldu.
+2025-04-20 10:43:38,987 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuluyor...
+2025-04-20 10:43:39,105 - NetworkShieldPro.screens - DEBUG - Ana düzen oluşturuldu.
+2025-04-20 10:43:39,105 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuluyor...
+2025-04-20 10:43:39,160 - NetworkShieldPro.screens - DEBUG - Ekranlar oluşturuldu.
+2025-04-20 10:43:39,160 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösteriliyor...
+2025-04-20 10:43:39,162 - NetworkShieldPro.screens - DEBUG - Başlangıç ekranı gösterildi.
+2025-04-20 10:43:39,162 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatılıyor...
+2025-04-20 10:43:39,164 - NetworkShieldPro.screens - DEBUG - Arka plan animasyonu başlatıldı.
+2025-04-20 10:43:39,164 - NetworkShieldPro.screens - INFO - SpotifyARPApp.__init__ tamamlandı
+2025-04-20 10:43:39,164 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:43:39,165 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:43:39,165 - NetworkShieldPro - INFO - Otomatik tarama ayarı aktif, periyodik tarama başlatılıyor
+2025-04-20 10:43:39,166 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:43:39,166 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 10:43:39,167 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:43:39,168 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:43:39,168 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (aktif)
+2025-04-20 10:43:39,169 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 10:43:39,169 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama başlatıldı (Her 24 saatte bir)
+2025-04-20 10:43:39,169 - NetworkShieldPro.screens - INFO - Periyodik tarama başlatıldı - Her 24 saatte bir
+2025-04-20 10:43:39,170 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:43:39,170 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:43:39,219 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:43:39,314 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:43:39,396 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:43:39,397 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:43:39,608 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:43:39,673 - NetworkShieldPro.ARPScanner - INFO - Tarama başlatıldı
+2025-04-20 10:43:39,673 - NetworkShieldPro.ARPScanner - INFO - Tarama başlıyor...
+2025-04-20 10:43:39,710 - NetworkShieldPro.arp_detector - DEBUG - ARP tablosu alındı: 8 kayıt
+2025-04-20 10:43:39,782 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:43:39,854 - NetworkShieldPro.arp_detector - DEBUG - Gateway bulundu: IP=192.168.63.157, MAC=a2:64:66:03:d2:7b
+2025-04-20 10:43:39,855 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:43:40,072 - NetworkShieldPro.ARPScanner - INFO - Tarama tamamlandı. Tehdit seviyesi: none
+2025-04-20 10:43:44,626 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:43:44,626 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:43:44,627 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:43:44,627 - NetworkShieldPro.settings - DEBUG - Ayar okundu: auto_scan = True
+2025-04-20 10:43:44,628 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:43:44,628 - NetworkShieldPro.settings - DEBUG - Ayar okundu: notifications_enabled = True
+2025-04-20 10:43:44,629 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:43:44,629 - NetworkShieldPro.settings - DEBUG - Ayar okundu: dark_mode = False
+2025-04-20 10:43:46,106 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:43:46,106 - NetworkShieldPro.settings - DEBUG - Ayar okundu: scan_interval = 24
+2025-04-20 10:43:46,106 - NetworkShieldPro.screens - ERROR - Ayarlar yüklenirken hata: 'Canvas' object has no attribute 'create_rounded_rectangle'
+2025-04-20 10:43:48,458 - NetworkShieldPro.screens - DEBUG - DashboardScreen tarama tamamlandı bildirimi alındı
+2025-04-20 10:43:51,959 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:43:51,959 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = True
+2025-04-20 10:43:51,959 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:43:51,960 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:43:51,962 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': True}
+2025-04-20 10:43:51,963 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:43:51,963 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:43:51,964 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:43:51,965 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durumu kaydedildi (pasif)
+2025-04-20 10:43:51,965 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama thread'i sonlanana kadar bekleniyor...
+2025-04-20 10:43:53,976 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama thread'i sonlanmadı, devam ediliyor
+2025-04-20 10:43:53,976 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama durduruldu
+2025-04-20 10:43:53,976 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:43:53,977 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:43:53,977 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
+2025-04-20 10:43:59,171 - NetworkShieldPro.ARPScanner - INFO - Periyodik tarama döngüsü sona erdi
+2025-04-20 10:43:59,175 - NetworkShieldPro.settings - DEBUG - Ayarlar yüklendi: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:43:59,175 - NetworkShieldPro.settings - DEBUG - Ayar güncellendi: periodic_scan_active = False
+2025-04-20 10:43:59,175 - NetworkShieldPro.settings - DEBUG - Ayarlar kaydediliyor: {'scan_interval': 24, 'auto_scan': True, 'dark_mode': False, 'notifications_enabled': True, 'periodic_scan_active': False}
+2025-04-20 10:43:59,177 - NetworkShieldPro.settings - INFO - Ayarlar başarıyla kaydedildi: C:\Users\Acer\Desktop\NetworkShieldPro\arp_settings.json
+2025-04-20 10:43:59,177 - NetworkShieldPro.ARPScanner - INFO - Tüm tarama işlemleri durduruldu
+2025-04-20 10:43:59,177 - NetworkShieldPro.ARPScanner - WARNING - Periyodik tarama zaten çalışmıyor
+2025-04-20 10:43:59,177 - NetworkShieldPro - INFO - Uygulama temizlik işlemleri tamamlandı
