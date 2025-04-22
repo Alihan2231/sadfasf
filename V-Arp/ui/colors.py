@@ -2,118 +2,142 @@
 # -*- coding: utf-8 -*-
 
 """
-Renk Teması ve Stil Sabitlerini İçeren Modül
-Bu modül, uygulama genelinde kullanılan renk ve stil sabitlerini içerir.
+Steam Tarzı Renk Teması ve Stil Sabitleri
+Bu modül, Steam benzeri UI için kullanılan renk ve stil sabitlerini içerir.
 """
 
-# Temel Spotify tarzı renk şeması
+# Steam benzeri renk şeması
 THEME = {
     # Ana renkler
-    "background": "#121212",  # Koyu arka plan
-    "card_background": "#181818",  # Kart arka planı
-    "sidebar_background": "#000000",  # Kenar çubuğu arka planı
+    "background": "#171a21",         # Steam koyu lacivert arka plan
+    "card_background": "#1b2838",    # Steam panel arkaplanı
+    "sidebar_background": "#1f3141", # Steam sidebar arkaplanı
     
     # Vurgu renkleri
-    "primary": "#1DB954",  # Spotify yeşili
-    "secondary": "#535353",  # Gri ton
-    "tertiary": "#B3B3B3",  # Açık gri
+    "primary": "#66c0f4",            # Steam mavi vurgu
+    "secondary": "#2a475e",          # Steam koyu mavi
+    "tertiary": "#c7d5e0",           # Steam açık gri
     
     # Durum renkleri
-    "success": "#1DB954",  # Yeşil (başarı)
-    "warning": "#F9A825",  # Sarı (uyarı)
-    "error": "#E53935",  # Kırmızı (hata)
-    "info": "#2196F3",  # Mavi (bilgi)
+    "success": "#5ba32b",            # Yeşil (başarı)
+    "warning": "#e5ac00",            # Sarı (uyarı)
+    "error": "#d94126",              # Kırmızı (hata)
+    "info": "#417a9b",               # Mavi (bilgi)
     
     # Metin renkleri
-    "text_primary": "#FFFFFF",  # Beyaz
-    "text_secondary": "#B3B3B3",  # Gri
-    "text_tertiary": "#6F6F6F",  # Koyu gri
-    "text_disabled": "#535353",  # Pasif metin
+    "text_primary": "#ffffff",       # Beyaz
+    "text_secondary": "#a3c2d7",     # Açık mavi
+    "text_tertiary": "#66c0f4",      # Steam mavi
+    "text_disabled": "#4b5d67",      # Pasif metin
     
     # Etkileşim durumları
-    "hover_primary": "#1ED760",  # Yeşil hover durumu
-    "active_primary": "#169C46",  # Yeşil aktif/basılı durumu
-    "hover_secondary": "#636363",  # Gri hover durumu
-    "active_secondary": "#434343",  # Gri aktif/basılı durumu
+    "hover_primary": "#a4d8ff",      # Mavi hover durumu
+    "active_primary": "#1f78b4",     # Koyu mavi aktif durumu
+    "hover_secondary": "#3c5977",    # Açık mavi hover durumu
+    "active_secondary": "#214559",   # Koyu mavi aktif durumu
     
     # Kenar çizgisi
-    "border": "#333333",  # Kenar çizgisi
+    "border": "#2e4756",             # Kenar çizgisi
     
     # Yarıçap değerleri
-    "radius_small": 4,  # Küçük köşe yuvarlaklığı
-    "radius_medium": 8,  # Orta köşe yuvarlaklığı
-    "radius_large": 16,  # Büyük köşe yuvarlaklığı
+    "radius_small": 2,               # Daha küçük köşe yuvarlaklığı
+    "radius_medium": 3,              # Orta köşe yuvarlaklığı  
+    "radius_large": 4,               # Büyük köşe yuvarlaklığı
     
     # Animasyon süreleri (ms)
-    "animation_fast": 150,  # Hızlı animasyon
-    "animation_medium": 300,  # Orta hızda animasyon
-    "animation_slow": 600,  # Yavaş animasyon
+    "animation_fast": 150,           # Hızlı animasyon
+    "animation_medium": 300,         # Orta hızda animasyon
+    "animation_slow": 600,           # Yavaş animasyon
     
     # Gölge efektleri
-    "shadow": "0 4px 8px rgba(0, 0, 0, 0.3)",  # Standart gölge
-    "shadow_large": "0 8px 16px rgba(0, 0, 0, 0.5)",  # Büyük gölge
+    "shadow": "0 1px 3px rgba(0, 0, 0, 0.25)",  # Standart gölge
+    "shadow_large": "0 3px 6px rgba(0, 0, 0, 0.3)",  # Büyük gölge
     
     # Özel renkler (uygulamaya özgü)
-    "network_secure": "#1DB954",  # Güvenli ağ
-    "network_warning": "#F9A825",  # Şüpheli ağ
-    "network_danger": "#E53935",  # Tehlikeli ağ
-    "network_unknown": "#757575",  # Bilinmeyen/taranmamış ağ
+    "network_secure": "#5ba32b",     # Güvenli ağ
+    "network_warning": "#e5ac00",    # Şüpheli ağ
+    "network_danger": "#d94126",     # Tehlikeli ağ
+    "network_unknown": "#4b5d67",    # Bilinmeyen/taranmamış ağ
+    
+    # Buton gradyanları
+    "button_gradient_start": "#1f779b",  # Buton gradyan başlangıç
+    "button_gradient_end": "#295f85",    # Buton gradyan bitiş
+    "button_hover_gradient_start": "#2b94c4", # Buton hover gradyan başlangıç
+    "button_hover_gradient_end": "#346d9b",   # Buton hover gradyan bitiş
+    
+    # Sidebar özel renkleri
+    "sidebar_active": "#1f3141",        # Aktif menü item bg
+    "sidebar_hover": "#254761",         # Hover menü item bg
+    "sidebar_text_active": "#66c0f4",   # Aktif menü metin
+    "sidebar_text_normal": "#c7d5e0",   # Normal menü metin
 }
 
-# Renk temaları (koyu/açık)
+# Renk temaları (koyu/açık) - Steam sadece koyu temayı destekler, ama ihtiyaç olursa açık tema da eklenebilir
 THEMES = {
     "dark": THEME,
     "light": {
-        # Ana renkler
-        "background": "#FFFFFF",  # Beyaz arka plan
-        "card_background": "#F5F5F5",  # Açık gri kart arka planı
-        "sidebar_background": "#EEEEEE",  # Kenar çubuğu arka planı
+        # Ana renkler (daha açık tonlar)
+        "background": "#f2f5f8",         # Açık mavi/gri arka plan
+        "card_background": "#ffffff",    # Beyaz kart arka planı
+        "sidebar_background": "#f0f5fa", # Açık mavi sidebar
         
         # Vurgu renkleri (aynı)
-        "primary": "#1DB954",  # Spotify yeşili
-        "secondary": "#BDBDBD",  # Gri ton
-        "tertiary": "#757575",  # Koyu gri
+        "primary": "#1f78b4",            # Koyu mavi vurgu
+        "secondary": "#a3c2d7",          # Açık mavi
+        "tertiary": "#4e749a",           # Orta mavi
         
         # Durum renkleri (aynı)
-        "success": "#1DB954",  # Yeşil (başarı)
-        "warning": "#F9A825",  # Sarı (uyarı)
-        "error": "#E53935",  # Kırmızı (hata)
-        "info": "#2196F3",  # Mavi (bilgi)
+        "success": "#5ba32b",            # Yeşil
+        "warning": "#e5ac00",            # Sarı
+        "error": "#d94126",              # Kırmızı
+        "info": "#417a9b",               # Mavi
         
         # Metin renkleri (ters)
-        "text_primary": "#212121",  # Siyah
-        "text_secondary": "#616161",  # Koyu gri
-        "text_tertiary": "#9E9E9E",  # Açık gri
-        "text_disabled": "#BDBDBD",  # Pasif metin
+        "text_primary": "#171a21",       # Koyu lacivert
+        "text_secondary": "#2a475e",     # Koyu mavi
+        "text_tertiary": "#1f78b4",      # Koyu mavi
+        "text_disabled": "#8fa3af",      # Gri
         
         # Etkileşim durumları
-        "hover_primary": "#1ED760",  # Yeşil hover durumu
-        "active_primary": "#169C46",  # Yeşil aktif/basılı durumu
-        "hover_secondary": "#D5D5D5",  # Gri hover durumu
-        "active_secondary": "#C2C2C2",  # Gri aktif/basılı durumu
+        "hover_primary": "#339be0",      # Açık mavi hover durumu
+        "active_primary": "#0f5e99",     # Koyu mavi aktif durumu
+        "hover_secondary": "#c7d5e0",    # Açık gri hover durumu
+        "active_secondary": "#9ab5c7",   # Gri aktif durumu
         
         # Kenar çizgisi
-        "border": "#E0E0E0",  # Kenar çizgisi
+        "border": "#c7d5e0",             # Kenar çizgisi
         
         # Yuvarlaklık değerleri (aynı)
-        "radius_small": 4,
-        "radius_medium": 8,
-        "radius_large": 16,
+        "radius_small": 2,
+        "radius_medium": 3,
+        "radius_large": 4,
         
         # Animasyon süreleri (aynı)
         "animation_fast": 150,
         "animation_medium": 300,
         "animation_slow": 600,
         
-        # Gölge efektleri
-        "shadow": "0 2px 4px rgba(0, 0, 0, 0.1)",
-        "shadow_large": "0 4px 8px rgba(0, 0, 0, 0.2)",
+        # Gölge efektleri (daha hafif)
+        "shadow": "0 1px 2px rgba(0, 0, 0, 0.1)",
+        "shadow_large": "0 2px 4px rgba(0, 0, 0, 0.15)",
         
         # Özel renkler (aynı)
-        "network_secure": "#1DB954",
-        "network_warning": "#F9A825",
-        "network_danger": "#E53935",
-        "network_unknown": "#9E9E9E",
+        "network_secure": "#5ba32b",
+        "network_warning": "#e5ac00",
+        "network_danger": "#d94126",
+        "network_unknown": "#8fa3af",
+        
+        # Buton gradyanları
+        "button_gradient_start": "#1f78b4",
+        "button_gradient_end": "#226595",
+        "button_hover_gradient_start": "#2b94c4",
+        "button_hover_gradient_end": "#346d9b",
+        
+        # Sidebar özel renkleri
+        "sidebar_active": "#e3f0f9",
+        "sidebar_hover": "#d1e5f5",
+        "sidebar_text_active": "#1f78b4",
+        "sidebar_text_normal": "#2a475e",
     }
 }
 
