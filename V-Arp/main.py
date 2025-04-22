@@ -49,11 +49,11 @@ logging.basicConfig(
 logger = logging.getLogger("V-ARP")
 
 class VARPApp:
-def __init__(self, root):
-    self.root = root
-    self.root.title("V-ARP")
-    self.root.geometry("1024x700")
-    self.root.minsize(800, 600)
+    def __init__(self, root):
+        self.root = root
+        self.root.title("V-ARP")
+        self.root.geometry("1024x700")
+        # ...geri kalan kodlar...
     
     # Pencere dekorasyonlarını kaldır (standart başlık çubuğunu gizle)
     self.root.overrideredirect(True)
