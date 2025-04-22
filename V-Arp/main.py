@@ -136,7 +136,7 @@ class VARPApp:
             logger.error(f"Sistem tepsisi ikonu oluşturulurken hata: {e}")
             traceback.print_exc()
     
-    def _create_custom_titlebar(self):
+def _create_custom_titlebar(self):
     """Özel başlık çubuğu oluşturur - Steam tarzı"""
     from ui.colors import THEME
     
