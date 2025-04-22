@@ -336,16 +336,23 @@ def _create_custom_titlebar(self):
         except Exception as e:
             logger.error(f"Temizlik işlemleri sırasında hata: {e}")
     
-    def on_close(self):
-        """Pencere kapatıldığında çağrılır"""
-        if SYSTEM_TRAY_AVAILABLE and messagebox.askyesno(
-            "Küçült", 
-            "Uygulamayı sistem tepsisine küçültmek ister misiniz?\n\n"
-            "Hayır'ı seçerseniz uygulama tamamen kapatılacaktır."
-        ):
-            self.hide_app()
-        else:
-            self.quit_app()
+def on_close(self):
+    """Uygulamayı temiz bir şekilde kapatır"""
+    try:
+        # Temizlik işlemleri
+        self.cleanup()
+        
+        # Sistem tepsisi simgesini kaldır
+        if self.system_tray_icon:
+            self.system_tray_icon.stop()
+            
+        # Pencereyi kapat
+        self.root.quit()
+        sys.exit(0)
+    except Exception as e:
+        logger.error(f"Uygulama kapatılırken hata: {e}")
+        # Hata olsa bile çıkmaya çalış
+        sys.exit(1)
 
 
 def main():
