@@ -137,83 +137,89 @@ class VARPApp:
             traceback.print_exc()
     
     def _create_custom_titlebar(self):
-        """Özel siyah başlık çubuğu oluşturur"""
-        from ui.colors import THEME
+    """Özel başlık çubuğu oluşturur - Steam tarzı"""
+    from ui.colors import THEME
+    
+    # Başlık çubuğu frame'i
+    self.titlebar = tk.Frame(self.root, bg=THEME["background"], height=28)
+    self.titlebar.pack(side=tk.TOP, fill=tk.X)
+    
+    # Kalkan ikonu çiz
+    try:
+        # İkon canvas'ı
+        self.icon_canvas = tk.Canvas(self.titlebar, width=20, height=20, 
+                                   bg=THEME["background"], highlightthickness=0)
+        self.icon_canvas.pack(side=tk.LEFT, padx=8)
         
-        # Başlık çubuğu frame'i
-        self.titlebar = tk.Frame(self.root, bg=THEME["card_background"], height=30)
-        self.titlebar.pack(side=tk.TOP, fill=tk.X)
+        # Kalkan şekli (Steam mavi renk)
+        shield_color = THEME["primary"]
         
-        # SVG ikon
-        try:
-            import cairosvg
-            import io
-            from PIL import Image, ImageTk
-            
-            # SVG dosyasını oku ve PNG'ye dönüştür
-            svg_data = open("assets/icons/app_icon.svg", "rb").read()
-            png_data = cairosvg.svg2png(bytestring=svg_data, output_width=20, output_height=20)
-            
-            # PNG verisini PIL Image'e dönüştür
-            icon_image = Image.open(io.BytesIO(png_data))
-            icon_photo = ImageTk.PhotoImage(icon_image)
-            
-            # İkon etiketi
-            self.icon_label = tk.Label(self.titlebar, image=icon_photo, bg=THEME["card_background"])
-            self.icon_label.image = icon_photo  # Referansı koru
-            self.icon_label.pack(side=tk.LEFT, padx=10)
-        except Exception as e:
-            logger.error(f"İkon yüklenirken hata: {e}")
-            # İkon yükleme başarısız olursa basit bir etiket göster
-            self.icon_label = tk.Label(self.titlebar, text="🛡️", bg=THEME["card_background"], 
-                                      fg=THEME["primary"], font=("Arial", 12, "bold"))
-            self.icon_label.pack(side=tk.LEFT, padx=10)
+        # Kalkan dış çizgisi
+        self.icon_canvas.create_polygon([10, 2, 18, 6, 16, 16, 10, 18, 4, 16, 2, 6], 
+                                      fill="", outline=shield_color, width=1)
         
-        # Başlık metni
-        self.title_label = tk.Label(self.titlebar, text="V-ARP - ARP Spoofing Koruması", 
-                                  bg=THEME["card_background"], fg=THEME["text_primary"],
-                                  font=("Arial", 10, "bold"))
-        self.title_label.pack(side=tk.LEFT, pady=5)
+        # Kalkan iç çizgisi
+        self.icon_canvas.create_line(10, 6, 10, 16, fill=shield_color, width=1)
         
-        # Pencere kontrol butonları için frame
-        self.buttons_frame = tk.Frame(self.titlebar, bg=THEME["card_background"])
-        self.buttons_frame.pack(side=tk.RIGHT, padx=5)
-        
-        # Minimize butonu
-        self.minimize_btn = tk.Label(self.buttons_frame, text="─", bg=THEME["card_background"], 
-                                   fg=THEME["text_primary"], font=("Arial", 12), width=2, cursor="hand2")
-        self.minimize_btn.pack(side=tk.LEFT, padx=5)
-        self.minimize_btn.bind("<Button-1>", lambda e: self.hide_app())
-        self.minimize_btn.bind("<Enter>", lambda e: self.minimize_btn.config(
-            bg=THEME["secondary"], fg=THEME["primary"]))
-        self.minimize_btn.bind("<Leave>", lambda e: self.minimize_btn.config(
-            bg=THEME["card_background"], fg=THEME["text_primary"]))
-        
-        # Kapat butonu
-        self.close_btn = tk.Label(self.buttons_frame, text="×", bg=THEME["card_background"], 
-                                 fg=THEME["text_primary"], font=("Arial", 12), width=2, cursor="hand2")
-        self.close_btn.pack(side=tk.LEFT, padx=5)
-        self.close_btn.bind("<Button-1>", lambda e: self.on_close())
-        self.close_btn.bind("<Enter>", lambda e: self.close_btn.config(
-            bg="#e81123", fg="white"))  # Kırmızı arka plan ve beyaz metin
-        self.close_btn.bind("<Leave>", lambda e: self.close_btn.config(
-            bg=THEME["card_background"], fg=THEME["text_primary"]))
-        
-        # Sürükleme ve bırakma kontrolü için değişkenler
-        self._x = 0
-        self._y = 0
-        
-        # Pencereyi sürükleme işlevselliği
-        self.titlebar.bind("<ButtonPress-1>", self._start_drag)
-        self.titlebar.bind("<ButtonRelease-1>", self._stop_drag)
-        self.titlebar.bind("<B1-Motion>", self._on_motion)
-        
-        # Başlık etiketini de sürüklenebilir yap
-        self.title_label.bind("<ButtonPress-1>", self._start_drag)
-        self.title_label.bind("<ButtonRelease-1>", self._stop_drag)
-        self.title_label.bind("<B1-Motion>", self._on_motion)
-        
-        # İkon etiketini de sürüklenebilir yap
+    except Exception as e:
+        logger.error(f"İkon oluşturulurken hata: {e}")
+        # İkon oluşturma başarısız olursa basit bir etiket göster
+        self.icon_label = tk.Label(self.titlebar, text="🛡️", bg=THEME["background"], 
+                                  fg=THEME["primary"], font=("Arial", 12))
+        self.icon_label.pack(side=tk.LEFT, padx=8)
+    
+    # Başlık metni - Steam tarzı
+    self.title_label = tk.Label(self.titlebar, text="NetworkShieldPro", 
+                              bg=THEME["background"], fg=THEME["text_secondary"],
+                              font=("Arial", 10))
+    self.title_label.pack(side=tk.LEFT, pady=6)
+    
+    # Pencere kontrol butonları için frame
+    self.buttons_frame = tk.Frame(self.titlebar, bg=THEME["background"])
+    self.buttons_frame.pack(side=tk.RIGHT)
+    
+    # Minimize butonu - Steam tarzı
+    self.minimize_btn = tk.Label(self.buttons_frame, text="_", bg=THEME["background"], 
+                               fg=THEME["text_secondary"], font=("Arial", 9), width=3, 
+                               cursor="hand2", anchor="center")
+    self.minimize_btn.pack(side=tk.LEFT)
+    self.minimize_btn.bind("<Button-1>", lambda e: self.hide_app())
+    self.minimize_btn.bind("<Enter>", lambda e: self.minimize_btn.config(
+        bg=THEME["secondary"], fg=THEME["text_primary"]))
+    self.minimize_btn.bind("<Leave>", lambda e: self.minimize_btn.config(
+        bg=THEME["background"], fg=THEME["text_secondary"]))
+    
+    # Kapat butonu - Steam tarzı
+    self.close_btn = tk.Label(self.buttons_frame, text="×", bg=THEME["background"], 
+                             fg=THEME["text_secondary"], font=("Arial", 12), width=3, 
+                             cursor="hand2", anchor="center")
+    self.close_btn.pack(side=tk.LEFT)
+    self.close_btn.bind("<Button-1>", lambda e: self.on_close())
+    self.close_btn.bind("<Enter>", lambda e: self.close_btn.config(
+        bg=THEME["error"], fg=THEME["text_primary"]))
+    self.close_btn.bind("<Leave>", lambda e: self.close_btn.config(
+        bg=THEME["background"], fg=THEME["text_secondary"]))
+    
+    # Sürükleme ve bırakma kontrolü için değişkenler
+    self._x = 0
+    self._y = 0
+    
+    # Pencereyi sürükleme işlevselliği
+    self.titlebar.bind("<ButtonPress-1>", self._start_drag)
+    self.titlebar.bind("<ButtonRelease-1>", self._stop_drag)
+    self.titlebar.bind("<B1-Motion>", self._on_motion)
+    
+    # Başlık etiketini de sürüklenebilir yap
+    self.title_label.bind("<ButtonPress-1>", self._start_drag)
+    self.title_label.bind("<ButtonRelease-1>", self._stop_drag)
+    self.title_label.bind("<B1-Motion>", self._on_motion)
+    
+    # İkon canvas'ını da sürüklenebilir yap
+    if hasattr(self, 'icon_canvas'):
+        self.icon_canvas.bind("<ButtonPress-1>", self._start_drag)
+        self.icon_canvas.bind("<ButtonRelease-1>", self._stop_drag)
+        self.icon_canvas.bind("<B1-Motion>", self._on_motion)
+    elif hasattr(self, 'icon_label'):
         self.icon_label.bind("<ButtonPress-1>", self._start_drag)
         self.icon_label.bind("<ButtonRelease-1>", self._stop_drag)
         self.icon_label.bind("<B1-Motion>", self._on_motion)
