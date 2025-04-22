@@ -66,117 +66,213 @@ class DashboardScreen(BaseScreen):
         self._create_widgets()
         self.last_scan_result = None
         
-    def _create_widgets(self):
-        """Arayüz öğelerini oluşturur"""
-        # Ana başlık
-        title_frame = tk.Frame(self.frame, bg=THEME["background"], height=60)
-        title_frame.pack(fill=tk.X, pady=(20, 0))
-        
-        title_label = tk.Label(title_frame, text="Gösterge Paneli", font=("Arial", 24, "bold"), 
-                              bg=THEME["background"], fg=THEME["text_primary"])
-        title_label.pack(side=tk.LEFT, padx=30)
-        
-        # Tarama butonu
-        self.scan_button = SpotifyButton(title_frame, text="Ağı Tara", command=self._start_scan,
-                                       width=120, height=36, bg=THEME["primary"])
-        self.scan_button.pack(side=tk.RIGHT, padx=30)
-        
-        # Ana içerik grid düzeni
-        content_frame = tk.Frame(self.frame, bg=THEME["background"])
-        content_frame.pack(fill=tk.BOTH, expand=True, padx=20, pady=20)
-        
-        # Sol sütun (Güvenlik özeti ve son tarama)
-        left_column = tk.Frame(content_frame, bg=THEME["background"])
-        left_column.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=10)
-        
-        # Güvenlik skoru kartı
-        self.security_card = RoundedFrame(left_column, bg=THEME["card_background"], height=250)
-        self.security_card.pack(fill=tk.X, pady=10)
-        
-        security_title = tk.Label(self.security_card, text="Ağ Güvenlik Skoru", 
-                                font=("Arial", 16, "bold"), bg=THEME["card_background"], 
-                                fg=THEME["text_primary"])
-        security_title.place(x=20, y=20)
-        
-        # Güvenlik skoru göstergesi
-        self.security_score_frame = tk.Frame(self.security_card, bg=THEME["card_background"])
-        self.security_score_frame.place(x=20, y=60, width=210, height=170)
-        
-        self.score_progressbar = CircularProgressbar(self.security_score_frame, progress=0, 
-                                                 width=170, height=170, thickness=12)
-        self.score_progressbar.pack(pady=10)
-        
-        # Güvenlik durumu
-        self.security_status = tk.Label(self.security_card, text="Bilinmiyor", 
-                                     font=("Arial", 14, "bold"), bg=THEME["card_background"], 
-                                     fg=THEME["warning"])
-        self.security_status.place(x=240, y=90)
-        
-        self.security_details = tk.Label(self.security_card, text="Ağınızın güvenlik durumu bilinmiyor.\nTarama yaparak güvenlik durumunu öğrenebilirsiniz.", 
-                                     font=("Arial", 11), bg=THEME["card_background"], 
-                                     fg=THEME["text_secondary"], justify=tk.LEFT)
-        self.security_details.place(x=240, y=120)
-        
-        # Son tarama kartı
-        self.last_scan_card = RoundedFrame(left_column, bg=THEME["card_background"], height=250)
-        self.last_scan_card.pack(fill=tk.X, pady=10)
-        
-        last_scan_title = tk.Label(self.last_scan_card, text="Son Tarama", 
-                                 font=("Arial", 16, "bold"), bg=THEME["card_background"], 
-                                 fg=THEME["text_primary"])
-        last_scan_title.place(x=20, y=20)
-        
-        # Son tarama zamanı
-        self.last_scan_time = tk.Label(self.last_scan_card, text="Henüz tarama yapılmadı", 
-                                    font=("Arial", 12), bg=THEME["card_background"], 
-                                    fg=THEME["text_secondary"])
-        self.last_scan_time.place(x=20, y=50)
-        
-        # Son tarama özeti
-        self.last_scan_summary_frame = tk.Frame(self.last_scan_card, bg=THEME["card_background"])
-        self.last_scan_summary_frame.place(x=20, y=80, width=400, height=150)
-        
-        # Varsayılan içerik
-        self.no_scan_label = tk.Label(self.last_scan_summary_frame, 
-                                   text="Tarama yapılmadı", font=("Arial", 14),
-                                   bg=THEME["card_background"], fg=THEME["text_secondary"])
-        self.no_scan_label.pack(pady=50)
-        
-        # Sağ sütun (Tarama geçmişi, tehdit grafiği)
-        right_column = tk.Frame(content_frame, bg=THEME["background"])
-        right_column.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=10)
-        
-        # Tehdit dağılımı kartı
-        self.threat_chart_card = RoundedFrame(right_column, bg=THEME["card_background"], height=250)
-        self.threat_chart_card.pack(fill=tk.X, pady=10)
-        
-        threat_chart_title = tk.Label(self.threat_chart_card, text="Tehdit Dağılımı", 
-                                    font=("Arial", 16, "bold"), bg=THEME["card_background"], 
-                                    fg=THEME["text_primary"])
-        threat_chart_title.place(x=20, y=20)
-        
-        # Tehdit grafiği
-        self.threat_chart_frame = tk.Frame(self.threat_chart_card, bg=THEME["card_background"])
-        self.threat_chart_frame.place(x=20, y=60, width=400, height=170)
-        
-        self.threat_chart = AnimatedChart(self.threat_chart_frame, width=400, height=170)
-        self.threat_chart.pack(fill=tk.BOTH, expand=True)
-        
-        # Tehdit geçmişi kartı
-        self.threat_history_card = RoundedFrame(right_column, bg=THEME["card_background"], height=250)
-        self.threat_history_card.pack(fill=tk.X, pady=10)
-        
-        threat_history_title = tk.Label(self.threat_history_card, text="Tehdit Geçmişi", 
-                                      font=("Arial", 16, "bold"), bg=THEME["card_background"], 
-                                      fg=THEME["text_primary"])
-        threat_history_title.place(x=20, y=20)
-        
-        # Tehdit geçmişi grafiği
-        self.threat_history_frame = tk.Frame(self.threat_history_card, bg=THEME["card_background"])
-        self.threat_history_frame.place(x=20, y=60, width=400, height=170)
-        
-        self.history_chart = AnimatedChart(self.threat_history_frame, width=400, height=170)
-        self.history_chart.pack(fill=tk.BOTH, expand=True)
+def _create_widgets(self):
+    """Dashboard ekranı widget'larını oluşturur - Steam tarzı"""
+    # Ana içerik düzeni
+    content_frame = tk.Frame(self.frame, bg=THEME["background"])
+    content_frame.pack(fill=tk.BOTH, expand=True, padx=20, pady=10)
+    
+    # Üst bilgi çubuğu - Steam tarzı
+    top_bar = SteamFrame(content_frame, bg=THEME["card_background"], height=40)
+    top_bar.pack(fill=tk.X, pady=(0, 15))
+    
+    # Başlık
+    title_label = tk.Label(top_bar, text="AĞ GÜVENLİK MONITÖRÜ", font=("Arial", 12, "bold"), 
+                          bg=THEME["card_background"], fg=THEME["primary"])
+    title_label.place(x=15, y=10)
+    
+    # Son tarama bilgisi
+    self.last_scan_label = tk.Label(top_bar, text="Son tarama: Hiç tarama yapılmadı", 
+                                   font=("Arial", 9), bg=THEME["card_background"], 
+                                   fg=THEME["text_secondary"])
+    self.last_scan_label.place(relx=1.0, y=12, anchor="e", x=-15)
+    
+    # Solda ana panel, sağda sidebar düzeni
+    main_panel = tk.Frame(content_frame, bg=THEME["background"])
+    main_panel.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(0, 10))
+    
+    sidebar = tk.Frame(content_frame, bg=THEME["background"], width=220)
+    sidebar.pack(side=tk.RIGHT, fill=tk.Y, pady=5)
+    sidebar.pack_propagate(False)  # Genişliği sabitlemek için
+    
+    # Ana panel içeriği
+    # Üst panel - Güvenlik skoru ve durumu
+    upper_panel = SteamFrame(main_panel, bg=THEME["card_background"], height=200)
+    upper_panel.pack(fill=tk.X, pady=(0, 15))
+    
+    # Sol tarafta güvenlik göstergesi
+    gauge_frame = tk.Frame(upper_panel, bg=THEME["card_background"], width=180, height=180)
+    gauge_frame.place(x=10, y=10)
+    gauge_frame.pack_propagate(False)
+    
+    self.security_gauge = SteamMeter(gauge_frame, width=150, height=150, value=0)
+    self.security_gauge.pack(pady=15)
+    
+    # Sağ tarafta güvenlik durumu ve detaylar
+    status_frame = tk.Frame(upper_panel, bg=THEME["card_background"])
+    status_frame.place(x=200, y=20, relwidth=0.7)
+    
+    # Güvenlik durumu etiketi
+    status_title = tk.Label(status_frame, text="GÜVENLİK DURUMU", 
+                           font=("Arial", 11, "bold"), bg=THEME["card_background"], 
+                           fg=THEME["text_primary"])
+    status_title.grid(row=0, column=0, sticky="w")
+    
+    # Steam tarzı ayraç çizgi
+    separator = tk.Frame(status_frame, height=1, bg=THEME["border"])
+    separator.grid(row=1, column=0, sticky="ew", pady=5)
+    
+    # Durum bilgisi
+    self.security_status = tk.Label(status_frame, text="Bilinmiyor", 
+                                   font=("Arial", 10, "bold"), bg=THEME["card_background"], 
+                                   fg=THEME["warning"])
+    self.security_status.grid(row=2, column=0, sticky="w", pady=5)
+    
+    # Durum açıklaması
+    self.security_details = tk.Label(status_frame, 
+                                   text="Ağınızın güvenlik durumu bilinmiyor.\nTarama yaparak güvenlik durumunu öğrenebilirsiniz.", 
+                                   font=("Arial", 9), bg=THEME["card_background"], 
+                                   fg=THEME["text_secondary"], justify=tk.LEFT, wraplength=350)
+    self.security_details.grid(row=3, column=0, sticky="w", pady=5)
+    
+    # Tarama butonu - Steam tarzı
+    self.scan_button = SteamButton(status_frame, text="Ağı Tara", 
+                                 command=self._start_scan, width=120, height=28)
+    self.scan_button.grid(row=4, column=0, sticky="w", pady=10)
+    
+    # Alt panel - Tehdit listesi
+    lower_panel = SteamFrame(main_panel, bg=THEME["card_background"])
+    lower_panel.pack(fill=tk.BOTH, expand=True)
+    
+    # Panel başlığı
+    threat_title = tk.Label(lower_panel, text="TEHDİT RAPORU", 
+                           font=("Arial", 11, "bold"), bg=THEME["card_background"], 
+                           fg=THEME["text_primary"])
+    threat_title.place(x=15, y=12)
+    
+    # Steam tarzı ayraç çizgi
+    threat_separator = tk.Frame(lower_panel, height=1, bg=THEME["border"])
+    threat_separator.place(x=15, y=35, width=300)
+    
+    # Tehdit listesi (treeview)
+    tree_frame = tk.Frame(lower_panel, bg=THEME["card_background"])
+    tree_frame.place(x=10, y=45, relwidth=0.97, relheight=0.85)
+    
+    # Steam tarzı treeview - yeni bir stil tanımla
+    style = ttk.Style()
+    style.theme_use('default')  # Temayı sıfırla
+    
+    # Treeview renkleri
+    style.configure("Steam.Treeview",
+                   background=THEME["secondary"],
+                   foreground=THEME["text_secondary"],
+                   rowheight=25,
+                   fieldbackground=THEME["secondary"])
+    
+    style.map('Steam.Treeview',
+             background=[('selected', THEME["sidebar_active"])],
+             foreground=[('selected', THEME["primary"])])
+    
+    # Başlık renkleri
+    style.configure("Steam.Treeview.Heading",
+                   background=THEME["sidebar_background"],
+                   foreground=THEME["text_primary"],
+                   font=('Arial', 9, 'bold'))
+    
+    # Treeview
+    self.threat_tree = ttk.Treeview(tree_frame, style="Steam.Treeview", 
+                                  columns=("ip", "mac", "threat_level", "description"),
+                                  show="headings")
+    
+    # Sütunları tanımla
+    self.threat_tree.heading("ip", text="IP Adresi")
+    self.threat_tree.heading("mac", text="MAC Adresi")
+    self.threat_tree.heading("threat_level", text="Tehdit Seviyesi")
+    self.threat_tree.heading("description", text="Açıklama")
+    
+    # Sütun genişlikleri
+    self.threat_tree.column("ip", width=120)
+    self.threat_tree.column("mac", width=130)
+    self.threat_tree.column("threat_level", width=100)
+    self.threat_tree.column("description", width=350)
+    
+    # Scrollbar
+    scrollbar = ttk.Scrollbar(tree_frame, orient="vertical", command=self.threat_tree.yview)
+    self.threat_tree.configure(yscrollcommand=scrollbar.set)
+    
+    # Yerleştir
+    self.threat_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+    scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+    
+    # Varsayılan mesaj
+    self.threat_tree.insert("", tk.END, values=("", "", "", "Tarama yapılmadı. Tehdit bilgisi yok."))
+    
+    # Sağ kenar çubuğu (sidebar)
+    
+    # Sidebar başlığı
+    sidebar_title = tk.Label(sidebar, text="KONTROL PANELİ", 
+                            font=("Arial", 10, "bold"), bg=THEME["background"], 
+                            fg=THEME["text_primary"])
+    sidebar_title.pack(anchor="w", pady=(0, 5), padx=5)
+    
+    # Kenar çubuğu çerçevesi
+    sidebar_frame = SteamFrame(sidebar, bg=THEME["sidebar_background"], 
+                             corner_radius=THEME["radius_small"])
+    sidebar_frame.pack(fill=tk.BOTH, expand=True)
+    
+    # Menü öğeleri
+    # Ana Sayfa
+    self.home_item = SteamSidebarItem(sidebar_frame, text="Ana Sayfa", 
+                                    icon="🏠", command=lambda: None, width=200)
+    self.home_item.pack(fill=tk.X, pady=1)
+    self.home_item.set_active(True)  # Aktif öğe
+    
+    # Tarama Geçmişi
+    self.history_item = SteamSidebarItem(sidebar_frame, text="Tarama Geçmişi", 
+                                       icon="📋", command=lambda: None, width=200)
+    self.history_item.pack(fill=tk.X, pady=1)
+    
+    # Ayarlar
+    self.settings_item = SteamSidebarItem(sidebar_frame, text="Ayarlar", 
+                                        icon="⚙️", command=self._show_settings, width=200)
+    self.settings_item.pack(fill=tk.X, pady=1)
+    
+    # Yardım
+    self.help_item = SteamSidebarItem(sidebar_frame, text="Yardım", 
+                                    icon="❓", command=lambda: None, width=200)
+    self.help_item.pack(fill=tk.X, pady=1)
+    
+    # Alt kısım - durum bilgisi
+    status_container = tk.Frame(sidebar_frame, bg=THEME["sidebar_background"], 
+                              height=100, pady=10)
+    status_container.pack(side=tk.BOTTOM, fill=tk.X)
+    
+    # Periyodik tarama durumu
+    self.periodic_status_label = tk.Label(status_container, 
+                                        text="Periyodik Tarama: Pasif", 
+                                        font=("Arial", 8), bg=THEME["sidebar_background"], 
+                                        fg=THEME["text_secondary"])
+    self.periodic_status_label.pack(anchor="w", padx=10, pady=2)
+    
+    # Periyodik tarama açma/kapama düğmeleri
+    button_frame = tk.Frame(status_container, bg=THEME["sidebar_background"])
+    button_frame.pack(anchor="w", padx=10, pady=5)
+    
+    self.start_periodic_button = SteamButton(button_frame, text="Başlat", 
+                                           command=self._start_periodic_scan, 
+                                           width=75, height=24)
+    self.start_periodic_button.pack(side=tk.LEFT, padx=(0,5))
+    
+    self.stop_periodic_button = SteamButton(button_frame, text="Durdur", 
+                                          command=self._stop_periodic_scan, 
+                                          width=75, height=24)
+    self.stop_periodic_button.pack(side=tk.LEFT)
+    
+    # Versiyon bilgisi
+    version_label = tk.Label(status_container, text="NetworkShieldPro v1.0", 
+                           font=("Arial", 7), bg=THEME["sidebar_background"], 
+                           fg=THEME["text_tertiary"])
+    version_label.pack(anchor="w", padx=10, pady=10)
         
     def _start_scan(self):
         """Tarama başlatır"""
