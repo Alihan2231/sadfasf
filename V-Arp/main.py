@@ -49,21 +49,20 @@ logging.basicConfig(
 logger = logging.getLogger("V-ARP")
 
 class VARPApp:
-    def __init__(self, root):
-        self.root = root
-        self.root.title("V-ARP")
-        self.root.geometry("1024x700")
-        self.root.minsize(800, 600)
-        
-        # Pencere dekorasyonlarını kaldır (standart başlık çubuğunu gizle)
-        self.root.overrideredirect(True)
-        
-        # Ana pencere kapatma olayını yakala
-        self.root.protocol("WM_DELETE_WINDOW", self.on_close)
-        
-        # Sistem tepsisi ikonu
-        self.system_tray_icon = None
-        self.app_visible = True
+def __init__(self, root):
+    self.root = root
+    self.root.title("V-ARP")
+    self.root.geometry("1024x700")
+    self.root.minsize(800, 600)
+    
+    # Pencere dekorasyonlarını kaldır (standart başlık çubuğunu gizle)
+    self.root.overrideredirect(True)
+    
+    # Ana pencere kapatma olayını yakala
+    # 'on_close' yerine mevcut 'quit_app' metodunu kullan
+    self.root.protocol("WM_DELETE_WINDOW", self.quit_app)
+    
+    # ...
         
         try:
             from ui.colors import THEME
